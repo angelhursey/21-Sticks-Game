@@ -4,6 +4,9 @@ public class TwentyOneSticks {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("Objective: The goal of the game is to NOT be the last to pull a stick(s).\n"); 
+		System.out.println("Instructions: When prompted, you are allowed to take up to two (2) sticks at a time.");
+		System.out.format("              Sticks are pulled between you and the computer until all sticks are gone. Last one to pull sticks loses.\n\n");
 		
 		int numSticks = 21;
 		
@@ -85,5 +88,7 @@ public class TwentyOneSticks {
 				}
 			}
 		}
+		take.close();
+		input.close();
 	}
 }
